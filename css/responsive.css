@@ -2031,6 +2031,11 @@ button.steps-next {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 
+    .welcome__art {
+        object-position: -310px;
+    }
+
+
     
 	
 	.image-bg-church::after {
