@@ -921,6 +921,7 @@ margin-left: -50px;
   border-radius: 20px;
 }
 .welcoming-church {
+  overflow: hidden;
   position: relative;
 }
 .union-shape {
@@ -1170,7 +1171,6 @@ figure.shadow-image3 {
 }
 p.text-fit {
     font-size: 20px;
-    margin-bottom: 30px;
     line-height: 30px;
     color: #0E0F11;
     max-width: 416px;
@@ -1728,10 +1728,9 @@ figure.anime-image.border-img::before {
 
 .lifelong-heading {
   background : url(../images/singer-cutout.jpg);
-  background-position: top;
   padding: 70px;
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
 /*  margin-top: -150px;*/
   position: relative;
@@ -2024,6 +2023,7 @@ figure.anime-image.border-img::before {
   width: 100%;
 }
 .firststep {
+  overflow: hidden;
   background: var( --mco-primary);
 }
 .firststep .discoverbtn {
@@ -3916,11 +3916,8 @@ figure.anime-image-three {
 }
 /* ================= THUMBNAIL SLIDER (bottom-right, like reference) ================= */
 .thumbnail-slider {
-    position: absolute;
-    right: 0;
-    bottom: 50px;
-    z-index: 10;
-    width: 100%;
+  position: relative;
+    
 }
 .thumbnail-slider .container {
   max-width: none;
@@ -3928,6 +3925,11 @@ figure.anime-image-three {
 }
 /* ---- progress + counter + arrows (above the cards) ---- */
 .slider-controls {
+  position: absolute;
+    right: 0;
+    bottom: 50px;
+    z-index: 10;
+    width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -4955,14 +4957,8 @@ color: #000000;
     gap: 20px;
     justify-content: center;
 }
-.welcome__art .mwel-g image {
-    transform-box: fill-box;
-    transform-origin: center;
-    transition: transform 0.5s ease;
-}
-.welcome__art .mwel-g:hover image {
-    transform: scale(1.08); /* 8% zoom */
-}
+
+
 
 .welcome__art {
   position: absolute;
@@ -6031,7 +6027,7 @@ color: #fff !important;
 }
 
 .section-missionchurchone .looking-heading .bold-heading {
-  flex: 1 1 420px;
+  flex: 1 1 170px;
   min-width: 0;
 }
 

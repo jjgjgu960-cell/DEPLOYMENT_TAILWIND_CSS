@@ -1,4 +1,19 @@
 @media (min-width: 320px) and (max-width: 567px) {
+
+
+
+    .welcome__art {
+  position: static;
+
+
+}
+
+.relationships {
+    padding: 0px;
+}
+
+
+
     .growbtn a {
     padding: 15px 20px;
     font-size: 14px !important;
@@ -276,9 +291,7 @@ a.googlebtn {
     padding-left: 20px;
     padding-right: 20px;
 }
-	.slider-controls {
-    max-width: 360px;
-}
+	
 	.main-slider .overlay-slider {
     background: linear-gradient(90deg, rgba(4, 14, 20, .9) 0%, rgba(4, 14, 20, .50) 50%, rgb(0 0 0 / 30%) 100%);
     width: 100%;
@@ -315,10 +328,36 @@ a.googlebtn {
 }
 		.kids-image {
     justify-content: center;
-    display: flex;
 }
 }
+
+
+
+
 @media (min-width: 568px) and (max-width: 767px) {
+
+
+
+       .welcome__art {
+  position: static;
+
+
+}
+
+.relationships {
+    padding: 0px;
+}
+
+
+    .kids-image {
+    justify-content: center;
+}
+
+
+
+    .slider-controls .progress-bar {
+        width: 60%;
+    }
 
 .trusted-section .nav-tabs {
     gap: 45px !important;
@@ -438,6 +477,24 @@ a.sayingbtn {
 
 }
 @media (min-width: 320px) and (max-width: 767px) {
+
+
+
+
+
+
+       .welcome__art {
+  position: static;
+
+
+}
+
+.relationships {
+    padding: 0px;
+}
+
+
+
 	.outreach__eyebrow {
     font-size: 20px;
 
@@ -763,8 +820,8 @@ p.text-fit {
     margin-bottom: 0;
 }
 .long-text h3 {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 60px;
+    line-height: 65px;
     margin-top: 20px;
 }
 .lifelong-heading {
@@ -1187,6 +1244,21 @@ margin-top: 0;
 
 }
 @media (min-width: 768px) and (max-width: 991px) {
+
+
+
+    
+       .welcome__art {
+  position: static;
+
+
+}
+
+.relationships {
+    padding: 0px;
+}
+
+
 	.look-card {
     padding: clamp(16px, 8.3vw, 20px) clamp(22px, 5.3vw, 20px) clamp(26px, 2vw, 50px);
 
@@ -1390,7 +1462,6 @@ left: -13px;
 }
 .kids-image {
     justify-content: center;
-    margin-top: 50px;
 }
 .solid-contant h3 {
     font-size: 24px;
@@ -1405,8 +1476,8 @@ left: -13px;
     padding: 20px;
 }
 .long-text h3 {
-    font-size: 38px;
-    line-height: 42px;
+    font-size: 75px;
+    line-height: 75px;
     margin-top: 28px;
 }
 	.contacttext.planvisit p {
@@ -1958,6 +2029,9 @@ button.steps-next {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+
+    
 	
 	.image-bg-church::after {
     right: -14px;
@@ -2161,8 +2235,8 @@ p.text-fit {
     min-height: 90px;
 }
 .long-text h3 {
-    font-size: 32px;
-    line-height: 45px;
+    font-size: 72px;
+    line-height: 72px;
     margin-top: 20px;
 }
 .lifelong-heading h3 {
@@ -2881,11 +2955,7 @@ p.text-fit {
   font-size: 18px;
         line-height: 28px;
 }
-.long-text h3 {
-    font-size: 54px;
-    line-height: 58px;
-    margin-top: 20px;
-}
+
 .join-us .churchbtn {
     margin: 30px auto 0px;
 }
@@ -3336,10 +3406,7 @@ h2 {
     font-size: 20px;
     line-height: 30px;
 }
-.long-text h3 {
-    font-size: 65px;
-    line-height: 65px;
-}
+
 .biblical-contant h6 {
     font-size: 24px;
 }
