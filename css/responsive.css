@@ -605,7 +605,7 @@ h2 {
 }
 .relationships {
     margin-left: 0px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .church-services h2 {
     font-size: 28px;
@@ -1247,6 +1247,12 @@ margin-top: 0;
 
 
 
+
+
+    
+
+
+
     
        .welcome__art {
   position: static;
@@ -1344,8 +1350,8 @@ h2 {
 }
 
 .church-services h2 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 60px;
+    line-height: 60px;
     margin: 0 0 0 0;
 }
 	.story__title {
@@ -1362,7 +1368,7 @@ h2 {
     font-size: 16px;
 }
 .church-services p {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 28px;
     margin: 10px 0px 10px;
 }
@@ -1375,7 +1381,7 @@ h2 {
     line-height: 28px;
 }
 .church-text p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
 }
 .look-card__text {
@@ -1909,7 +1915,7 @@ button.steps-next {
     justify-content: center;
 }
 	.church-services span {
-    font-size: 38px;
+    font-size: 60px;
 }
 	p.text-fit {
    font-size: 16px;
@@ -2032,7 +2038,7 @@ button.steps-next {
 
 
     .welcome__art {
-        object-position: -310px;
+        object-position: -240px;
     }
 
 
@@ -2175,7 +2181,7 @@ button.steps-next {
     line-height: 40px !important;
 }
 	.church-text span {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 34px;
 
 }
