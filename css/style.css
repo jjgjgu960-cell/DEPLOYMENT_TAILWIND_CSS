@@ -4915,7 +4915,7 @@ max-width: 450px;
 }
 .look-card:hover {
   background: var(--mco-secondary);
-  padding-bottom: clamp(30px, 2.6vw, 50px);
+
   box-shadow: 0 30px 60px rgba(var(--black-shadow), 0.32);
   transition: 1s;
 }
@@ -6197,7 +6197,6 @@ color: #fff !important;
 
 .look-card:hover {
   background: var(--mco-secondary);
-  padding-bottom: clamp(30px, 2.6vw, 50px);
   box-shadow: 0 30px 60px rgba(var(--black-shadow, 0 0 0), 0.32);
 }
 
